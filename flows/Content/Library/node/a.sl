@@ -22,6 +22,6 @@ extensions:
     results:
       SUCCESS:
         f77cf68f-a23d-8f5f-effc-36877c734507:
-          x: 520
-          'y': 120
+          x: 530
+          'y': 220
 
