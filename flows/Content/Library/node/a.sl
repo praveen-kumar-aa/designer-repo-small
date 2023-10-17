@@ -11,7 +11,7 @@ flow:
         navigate:
           - SUCCESS:
               next_step: SUCCESS
-              ROI: '2'
+              ROI: '3'
           - FAILURE: on_failure
   results:
     - SUCCESS
