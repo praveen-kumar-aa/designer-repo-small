@@ -9,7 +9,9 @@ flow:
             - value2: '2'
             - custom: '56'
         navigate:
-          - SUCCESS: SUCCESS
+          - SUCCESS:
+              next_step: SUCCESS
+              ROI: '2'
           - FAILURE: on_failure
   results:
     - SUCCESS
