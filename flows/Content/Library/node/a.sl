@@ -20,8 +20,8 @@ extensions:
   graph:
     steps:
       add_numbers:
-        x: 160
-        'y': 200
+        x: 480
+        'y': 280
         navigate:
           d02768f2-9081-6968-de13-e4313218575d:
             targetId: f77cf68f-a23d-8f5f-effc-36877c734507
@@ -29,5 +29,5 @@ extensions:
     results:
       SUCCESS:
         f77cf68f-a23d-8f5f-effc-36877c734507:
-          x: 530
-          'y': 220
+          x: 600
+          'y': 280
