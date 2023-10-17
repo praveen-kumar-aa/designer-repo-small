@@ -14,6 +14,12 @@ flow:
         do:
           io.cloudslang.base.utils.do_nothing: []
         navigate:
+          - SUCCESS: a
+          - FAILURE: on_failure
+    - a:
+        do:
+          node.a: []
+        navigate:
           - SUCCESS: SUCCESS
           - FAILURE: on_failure
   results:
@@ -28,8 +34,11 @@ extensions:
       do_nothing:
         x: 480
         'y': 200
+      a:
+        x: 440
+        'y': 40
         navigate:
-          f629fbce-8079-0f8c-b7a7-272aa8939322:
+          49035bf1-a149-8a7a-07ed-0225ad1809a2:
             targetId: 903b7849-4fde-09dd-63e7-4d67cb23c532
             port: SUCCESS
     results:
