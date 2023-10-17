@@ -15,7 +15,7 @@ extensions:
   graph:
     steps:
       b:
-        x: 400
+        x: 240
         'y': 240
         navigate:
           24b8c92f-042e-2382-c6cf-0fc9dce75c08:
