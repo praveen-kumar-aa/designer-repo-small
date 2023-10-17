@@ -1,6 +1,29 @@
+########################################################################################################################
+#!!
+#! @input flow_input_4: flow inp 4 is sensitive
+#!!#
+########################################################################################################################
 namespace: node.level1.level2
 flow:
   name: f2
+  inputs:
+    - flow_input_0: '1'
+    - flow_input_1: '2'
+    - flow_input_2: '3'
+    - flow_input_3: '4'
+    - flow_input_4:
+        default: '5'
+        private: true
+        sensitive: true
+    - flow_input_5
+    - flow_input_6
+    - flow_input_7
+    - flow_input_8
+    - flow_input_9
+    - flow_input_10
+    - flow_input_11
+    - flow_input_12
+    - flow_input_13
   workflow:
     - multiply_numbers:
         do:
