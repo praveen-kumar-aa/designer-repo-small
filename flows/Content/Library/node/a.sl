@@ -7,6 +7,7 @@ flow:
           io.cloudslang.base.math.add_numbers:
             - value1: '1'
             - value2: '2'
+            - custom: '56'
         navigate:
           - SUCCESS: SUCCESS
           - FAILURE: on_failure
