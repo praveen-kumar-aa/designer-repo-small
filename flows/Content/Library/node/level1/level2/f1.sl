@@ -23,8 +23,8 @@ extensions:
   graph:
     steps:
       a:
-        x: 240
-        'y': 160
+        x: 280
+        'y': 280
       random_number_generator:
         x: 440
         'y': 160
