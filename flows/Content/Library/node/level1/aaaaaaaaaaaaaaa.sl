@@ -11,5 +11,5 @@ extensions:
   graph:
     steps:
       flow12345:
-        x: 320
-        'y': 160
+        x: 480
+        'y': 120
