@@ -24,5 +24,5 @@ extensions:
     results:
       SUCCESS:
         6445d7fb-2bd2-3ce2-96b1-e7f512ba7720:
-          x: 400
+          x: 520
           'y': 200
