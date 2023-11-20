@@ -2,9 +2,9 @@ namespace: node.level1.level2
 flow:
   name: f1
   workflow:
-    - a:
+    - do_nothing:
         do:
-          node.a: []
+          io.cloudslang.base.utils.do_nothing: []
         navigate:
           - SUCCESS: random_number_generator
           - FAILURE: on_failure
@@ -22,16 +22,16 @@ flow:
 extensions:
   graph:
     steps:
-      a:
-        x: 280
-        'y': 280
       random_number_generator:
-        x: 440
+        x: 400
         'y': 160
         navigate:
           e28b7de7-399a-1592-be88-5d1e5f587e32:
             targetId: cbe9110a-819e-5a70-d115-0c5700185214
             port: SUCCESS
+      do_nothing:
+        x: 240
+        'y': 160
     results:
       SUCCESS:
         cbe9110a-819e-5a70-d115-0c5700185214:
