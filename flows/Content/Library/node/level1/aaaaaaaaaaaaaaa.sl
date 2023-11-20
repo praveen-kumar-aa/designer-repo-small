@@ -15,8 +15,8 @@ extensions:
   graph:
     steps:
       do_nothing:
-        x: 240
-        'y': 160
+        x: 120
+        'y': 240
         navigate:
           15588df1-9f66-a4fa-829f-c32477f98eb0:
             targetId: 9d587ec1-b0e8-a187-2bf5-e915a5a7052b
